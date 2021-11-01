@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-toggle {
+    @apply text-dashboard-blue h-7 w-7 cursor-pointer transform duration-700;
+}
+
+.blue-button {
+    @apply bg-dashboard-blue px-3 py-2.5 rounded-xl text-gray-50 font-semibold tracking-wide font-nunito;
+}
+
+.bg-footer {
+    background-color: #202942;
+}
+
+.bg-offer-card {
+    background-color: #687ded;
+}
+
+.bg-faq-header {
+    background-color: #79a5e4;
+}
+
+.testimonial-avatar-bg {
+    background-color: #edeffd;
+}
+
+/* dashboard */
+.shadow-child-nav-active {
+    box-shadow: 0 0 10px 1px rgba(115, 103, 240, 0.7);
+}
+
+.header-navbar-shadow {
+    background: linear-gradient(
+        180deg,
+        hsla(0, 0%, 97.3%, 0.95) 44%,
+        hsla(0, 0%, 97.3%, 0.46) 73%,
+        hsla(0, 0%, 100%, 0)
+    );
+}
+h2 {
+    font-size: 1.5rem;
+}
